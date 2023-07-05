@@ -1,0 +1,121 @@
+
+.pricing__header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+.pricing .card{
+    width: 45%;
+    padding: 5px;
+    background-color: rgba(255,255,255, .3)
+}
+
+.pricing .card__header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.pricing .card__main{
+
+}
+.pricing .card__footer{
+    display: flex;
+    justify-content: space-between;
+}
+.pricing .card__footer :first-child{
+    display: flex;
+    
+}
+.pricing .card__imagem{
+    width: 100%;
+    
+}
+.pricing .card__title{
+    font-size: large;
+}
+.pricing .card__paragrafh{
+    font-size: small;
+}
+
+/* +++++++++++++++++++container+++++++++++++++++++++++++++++++ */
+
+.container{
+    display: flex;
+    gap: 2%;
+}
+
+.container .container__item{
+   display: flex;
+   flex-direction: column;
+   gap: 3%;
+}
+.container .container__item-1{
+    width: 100%;
+ }
+ .container .container__item{
+    
+
+ }
+ .container .container__item-1 .card{
+    width: 100%;
+ }
+ .container .container__item-1 .card > .card__imagem{
+    width: 100%;
+ }
+.container :last-child .card {
+    display: flex;
+    width: 100%;
+    gap: 2%;
+}
+.container :last-child .card h2{
+    font-size: 1rem;
+}
+.container :last-child .card__imagem{
+    width: 25%;
+}
+.container :last-child .card__body{
+    width: 75%;
+}
+
+
+
+
+footer article{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+footer > article > ul{
+    width: auto;
+}
+footer > article > div{
+    width: 40%;
+}
+footer > article > div >input[type='email']{
+    background-color: rgba(255,255,255, .1);
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 0.2rem;
+    border: 1px solid white;
+}
+footer > article > div > input[type='submit']{
+    background-color: #6850d0;
+    padding: 0.5rem;
+    color: white;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 0.2rem;
+   
+}
+footer article  ul li a{
+    color: #f5f5f5;
+ 
+}
+footer > article{
+    margin-bottom: 1rem;
+}
+footer > div{
+    padding:  1rem;
+    text-align: center;
+}
